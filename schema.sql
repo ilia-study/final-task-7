@@ -6,3 +6,10 @@ CREATE TABLE `users`
     `password`  VARCHAR(255) NOT NULL,
     `birthday`  VARCHAR(255) NOT NULL
 );
+
+CREATE TABLE `Kurses`
+(
+    `name` VARCHAR(255) NOT NULL,
+    `date`     VARCHAR(255) NOT NULL,
+    `about`     VARCHAR(255) NOT NULL
+);

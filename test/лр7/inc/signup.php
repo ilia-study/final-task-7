@@ -1,7 +1,7 @@
 <?php
     session_start();
 
-    $connect = mysqli_connect('127.0.0.1', 'lawliet', '19283746ads', 'accaunts');
+    $connect = mysqli_connect('188.68.222.195', 'lawliet', '19283746ads', 'accaunts');
 
 
     $full_name = $_POST['full_name'];
