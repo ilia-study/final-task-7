@@ -35,7 +35,7 @@
         <a class="reg_button" href="index.php">Вернуться</a>
 
         <?php
-        if($_SESSION['message']){
+        if($_SESSION['message'] ?? null){
             echo '<p class="msg"> ' . $_SESSION['message'] . ' </p>';
         }
         unset($_SESSION['message']);
