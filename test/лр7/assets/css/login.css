@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.login_body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.reg_body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    padding-top: 50px;
+}
+.login_form{
+    padding: 30px 80px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+}
+.reg_form{
+    padding: 60px 150px 0px 150px;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 700px;
+}
+.login_input{
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+}
+.login_button{
+    padding: 10px;
+    background: #e3e3e3;
+    border: unset;
+    cursor: pointer;
+}
+.reg_button{
+    color: #7c9ab7;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px 0;
+}
+.msg{
+    border: 2px solid firebrick;
+    border-radius: 3px;
+    padding: 10px;
+    background-color: rgba(255, 0, 0, 0.3);
+    text-align: center;
+    font-weight: bold;
+}
